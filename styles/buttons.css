@@ -1,0 +1,48 @@
+.fakeLink {
+    background: none!important;
+    border: none;
+    padding: .5rem 1rem;
+    font-family: arial, sans-serif;
+    font-size: 1em;
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fakeLink:hover {
+    text-decoration: underline;
+}
+
+.fakeLink:focus {
+    outline: 0;
+}
+
+.btn {
+    border-radius: 0.5em;
+    border: 2px solid #0099CC;
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    text-align: center;
+    display: inline-block;
+    font-size: 0.8em;
+    margin: 4px 2px;
+    max-width: 8em;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn--delete {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(241, 46, 25);
+}
+
+.btn--delete:hover {
+    background-color: rgba(207, 39, 20, 0.932);
+    color: white;
+}

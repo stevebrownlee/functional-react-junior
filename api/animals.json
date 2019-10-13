@@ -1,0 +1,183 @@
+{
+    "veterinarians": [
+        {
+            "id": 1,
+            "name": "Sebastiano Paddie",
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "name": "Uta Rilings",
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "name": "Simone Meni",
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "name": "Aube Gilliver",
+            "locationId": 1
+        },
+        {
+            "id": 5,
+            "name": "Ulrikaumeko Aggis",
+            "locationId": 1
+        },
+        {
+            "id": 6,
+            "name": "Carlyle Kullmann",
+            "locationId": 1
+        },
+        {
+            "id": 7,
+            "name": "Therese Rubinshtein",
+            "locationId": 2
+        },
+        {
+            "id": 8,
+            "name": "Ilise Rohan",
+            "locationId": 1
+        },
+        {
+            "id": 9,
+            "name": "Hazel Bubb",
+            "locationId": 2
+        },
+        {
+            "id": 10,
+            "name": "Gerrard Kennard",
+            "locationId": 1
+        },
+        {
+            "id": 11,
+            "name": "Costanza Brunstan",
+            "locationId": 1
+        },
+        {
+            "id": 12,
+            "name": "Tabatha Carbry",
+            "locationId": 1
+        },
+        {
+            "id": 13,
+            "name": "Sky Gatheral",
+            "locationId": 1
+        },
+        {
+            "id": 14,
+            "name": "Henrie Poacher",
+            "locationId": 2
+        },
+        {
+            "id": 15,
+            "name": "Idaline Spinetti",
+            "locationId": 1
+        }
+    ],
+    "animals": [
+        {
+            "id": 1,
+            "name": "Herbie",
+            "locationId": 2,
+            "veterinarianId": 6
+        },
+        {
+            "id": 2,
+            "name": "Rhys",
+            "locationId": 1,
+            "veterinarianId": 9
+        },
+        {
+            "id": 3,
+            "name": "Elysia",
+            "locationId": 2,
+            "veterinarianId": 3
+        },
+        {
+            "id": 4,
+            "name": "Dennison",
+            "locationId": 1,
+            "veterinarianId": 1
+        },
+        {
+            "id": 5,
+            "name": "Melinde",
+            "locationId": 1,
+            "veterinarianId": 3
+        },
+        {
+            "id": 6,
+            "name": "Dinnie",
+            "locationId": 2,
+            "veterinarianId": 10
+        },
+        {
+            "id": 7,
+            "name": "Kristopher",
+            "locationId": 1,
+            "veterinarianId": 3
+        },
+        {
+            "id": 8,
+            "name": "Sabrina",
+            "locationId": 1,
+            "veterinarianId": 9
+        },
+        {
+            "id": 9,
+            "name": "Granger",
+            "locationId": 2,
+            "veterinarianId": 4
+        },
+        {
+            "id": 10,
+            "name": "Lucinda",
+            "locationId": 1,
+            "veterinarianId": 14
+        },
+        {
+            "id": 11,
+            "name": "Gilbertina",
+            "locationId": 1,
+            "veterinarianId": 2
+        },
+        {
+            "id": 12,
+            "name": "Merry",
+            "locationId": 2,
+            "veterinarianId": 13
+        },
+        {
+            "id": 13,
+            "name": "Rance",
+            "locationId": 1,
+            "veterinarianId": 10
+        },
+        {
+            "id": 14,
+            "name": "Rozanne",
+            "locationId": 2,
+            "veterinarianId": 7
+        },
+        {
+            "id": 15,
+            "name": "Eilis",
+            "locationId": 2,
+            "veterinarianId": 9
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Nashville North",
+            "address": "1891 Juniper Street"
+        },
+        {
+            "id": 2,
+            "name": "Nashville South",
+            "address": "59 Rushmont Avenue"
+        }
+    ]
+}

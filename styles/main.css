@@ -1,0 +1,29 @@
+@import 'navbar.css';
+@import 'buttons.css';
+@import 'locations.css';
+@import 'animals.css';
+@import 'veterinarians.css';
+
+.navbar {
+    border: 2px dotted #dc0e7f;
+}
+
+.dashboard {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dashboard__item {
+    flex-basis: 45%;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+.listTitle {
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+.dashboard__item--veterinarians {
+    border: 1px solid lime;
+}
+
+.veterinarian {
+    border: 1px solid orange;
+    padding: 1em 2em;
+    margin: 0.5em;
+}

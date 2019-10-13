@@ -1,0 +1,8 @@
+.navbar__nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar__navItem {
+    flex-basis: 15%;
+}

@@ -1,0 +1,22 @@
+.dashboard__item--animals {
+    border: 2px solid fuchsia;
+}
+
+.boxList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.animal {
+    flex-basis: 20%;
+    border: 2px solid lightslategray;
+    padding: 0.5em;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.animal__name {
+    font-weight: 600;
+}

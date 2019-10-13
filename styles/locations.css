@@ -1,0 +1,9 @@
+.dashboard__item--locations {
+    border: 2px solid brown;
+}
+
+.location {
+    border: 2px solid lightblue;
+    padding: 0.5em;
+    margin: 0.5em;
+}
