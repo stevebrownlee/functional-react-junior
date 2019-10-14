@@ -14,11 +14,11 @@ This is your goal for the first three months of your time at Nashville Software 
 1. In the first terminal window, `cd ~/workspace` and then clone this repository.
 1. Then run the following commands to start the API server.
     ```
-    cd vanilla-component-goal
+    cd functional-react-junior
     cd api
     json-server -w animals.json -p 8000
     ```
-1. In the second terminal window, `cd ~/workspace/vanilla-component-goal`.
+1. In the second terminal window, `cd ~/workspace/functional-react-junior`.
 1. Then run the HTTP server program you installed by typing in `http-server`.
 
 ## Viewing the Application
