@@ -2,10 +2,13 @@
 /*
 Location component which renders individual location objects as HTML.
 */
-import { animals } from "../animals/AnimalProvider.js"
+import { useAnimals } from "../animals/AnimalProvider.js"
+
 
 
 const VeterinarianComponent = () => {
+    const animals = useAnimals()
+
     return {
         render: veterinarian => {
             console.log(`****   VeterinarianComponent ${veterinarian.id} render()   ****`)

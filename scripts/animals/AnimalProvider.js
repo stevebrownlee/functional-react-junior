@@ -2,11 +2,12 @@
     AnimalProvider component that maintain the application state for
     animal data.
 */
-export let animals = []
+let animals = []
 
-const setAnimals = animalArray => {
-    animals = animalArray.splice(0)
-}
+const setAnimals = animalArray => animals = animalArray.splice(0)
+
+export const useAnimals = () =>
+    animals.sort((a, b) => a.name.charCodeAt(0) - b.name.charCodeAt(0))
 
 export const getAnimals = () => {
     console.log("****   AnimalProvider getAnimals()   ****")

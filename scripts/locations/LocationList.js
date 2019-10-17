@@ -3,13 +3,15 @@
     collection and renders individual Location components.
 */
 import LocationComponent from "./Location.js"
-import { locations } from "./LocationProvider.js"
+import { useLocations } from "./LocationProvider.js"
 
 // Reference to the DOM element into which the HTML components will be rendered
 const dashboard = document.querySelector("#dashboard")
 
 
 const LocationListComponent = () => {
+    const locations = useLocations()
+
     return {
         render () {
             console.group(

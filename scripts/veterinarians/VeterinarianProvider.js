@@ -2,11 +2,15 @@
     VeterinarianProvider component that maintain the application state for
     veterinarian data.
 */
-export let veterinarians = []
+let veterinarians = []
 
 const setVeterinarians = veterinariansArray => {
     veterinarians = veterinariansArray.splice(0)
 }
+
+export const useVeterinarians = () =>
+    veterinarians.sort((a, b) => a.name.charCodeAt(0) - b.name.charCodeAt(0))
+
 
 export const getVeterinarians = () => {
     console.log("****   VeterinarianProvider getVeterinarians()   ****")

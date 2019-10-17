@@ -16,8 +16,8 @@ const ApplicationViewController = {
 
             if (buttonId === "dashboardViewBtn") {
                 console.log("****   Dashboard Nav Item Clicked   ****")
-                AnimalListComponent().render()
                 LocationListComponent().render()
+                AnimalListComponent().render()
             }
 
             if (buttonId === "veterinarianViewBtn") {

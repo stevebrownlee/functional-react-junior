@@ -1,8 +1,10 @@
-export let locations = []
+let locations = []
 
 const setLocations = locationArray => {
     locations = locationArray.splice(0)
 }
+
+export const useLocations = () => locations
 
 export const getLocations = () => {
     console.log("****   LocationProvider getLocations()   ****")

@@ -1,9 +1,11 @@
 /*
     Animal component which renders individual animal objects as HTML
 */
-import { locations } from "../locations/LocationProvider.js"
+import { useLocations } from "../locations/LocationProvider.js"
 
 const AnimalComponent = () => {
+    const locations = useLocations()
+
     return {
         render: animal => {
             console.log(`****   AnimalComponent ${animal.id} render()   ****`)

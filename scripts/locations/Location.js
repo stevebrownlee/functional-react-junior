@@ -1,13 +1,17 @@
 /*
     Location component which renders individual location objects as HTML.
 */
-import { animals } from "../animals/AnimalProvider.js"
+import { useAnimals } from "../animals/AnimalProvider.js"
+
 
 
 const LocationComponent = () => {
+    const animals = useAnimals()
+
     return {
         render: location => {
             console.log(`****   LocationComponent ${location.id} render()   ****`)
+
 
             // Get all animals assigned to this location
             const animalsInThisLocation = animals.filter(

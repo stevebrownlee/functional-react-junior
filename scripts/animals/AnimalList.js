@@ -3,7 +3,7 @@
     collection and renders individual Animal components.
 */
 import AnimalComponent from "./Animal.js"
-import { deleteAnimal, animals, getAnimals } from "./AnimalProvider.js"
+import { deleteAnimal, useAnimals, getAnimals } from "./AnimalProvider.js"
 
 // Reference to the DOM element into which the HTML components will be rendered
 const dashboard = document.querySelector("#dashboard")
@@ -25,14 +25,16 @@ dashboard.addEventListener("click", evt => {
 })
 
 const AnimalListComponent = () => {
+    const animals = useAnimals()
+
     return {
         render () {
-
             console.group(
                 "%c Rendering Animal Components",
                 "color:#166751; background-color:#6cebc9"
             )
             console.log("****   AnimalListComponent render()   ****")
+
 
             // Remove the list component from the DOM, if it exists
             const listDOM = document.querySelector("#animals")

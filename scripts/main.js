@@ -24,7 +24,7 @@ ApplicationViewController.init()
 console.group(
     "%c Loading Initial Application State",
     "color:#164667; background-color:#b2d2e8"
-    )
+)
 
 /*
     Pull database state needed for initial view
@@ -40,5 +40,5 @@ getAnimals()
         that new state needs to be rendered as HTML
         to the user.
     */
-   .then(LocationListComponent().render)
-    .then(AnimalListComponent().render)
+    .then(() => LocationListComponent().render())
+    .then(() => AnimalListComponent().render())

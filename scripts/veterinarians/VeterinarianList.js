@@ -3,7 +3,7 @@
     collection and renders individual Veterinarian components.
 */
 import VeterinarianComponent from "./Veterinarian.js"
-import { veterinarians, deleteVeterinarian, getVeterinarians } from "./VeterinarianProvider.js"
+import { useVeterinarians, deleteVeterinarian, getVeterinarians } from "./VeterinarianProvider.js"
 
 // Reference to the DOM element into which the HTML components will be rendered
 const dashboard = document.querySelector("#dashboard")
@@ -25,6 +25,8 @@ dashboard.addEventListener("click", evt => {
 })
 
 const VeterinarianListComponent = () => {
+    const veterinarians = useVeterinarians()
+
     return {
         render () {
             console.group(
