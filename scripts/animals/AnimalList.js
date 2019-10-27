@@ -11,7 +11,7 @@ const dashboard = document.querySelector("#dashboard")
 // Listen for a click event on any child element in the animal container
 dashboard.addEventListener("click", evt => {
 
-    // Only run the log if the user clicked on a delete button
+    // Only run the logic if the user clicked on a delete button
     if (evt.target.id.startsWith("deleteAnimal--")) {
         const animalId = evt.target.id.split("--")[1]
 
