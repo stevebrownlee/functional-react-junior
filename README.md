@@ -10,7 +10,7 @@ This is your goal for the first three months of your time at Nashville Software 
     sudo npm i -g json-server
     ```
 1. Open two terminal windows.
-1. In the first terminal window, install the open source library `http-server` with the following command.
+1. In the first terminal window, install the open source web server tool - `server` - with the following command.
     ```sh
     sudo npm i -g serve
     ```
