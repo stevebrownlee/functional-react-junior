@@ -20,7 +20,7 @@ dashboard.addEventListener("click", evt => {
             // Load new database state into application state
             .then(getVeterinarians)
             // Render new state as HTML
-            .then(VeterinarianListComponent().render)
+            .then(() => VeterinarianListComponent().render())
     }
 })
 
